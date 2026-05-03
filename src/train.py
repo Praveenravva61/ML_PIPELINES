@@ -14,8 +14,8 @@ from urllib.parse import urlparse
 
 
 os.environ['ML_FLOW_TRACKING_URI'] ="https://dagshub.com/Praveenravva61/Ml_pipeline.mlflow"
-os.environ['ML_FLOW_TRACKING_USER'] ="Praveenravva61"
-os.environ['ML_FLOW_TRACKING_PASSWORD'] ="3a388ae629ba4c064e33d420a46d2faa874f841f"
+os.environ['ML_FLOW_TRACKING_USER'] ="username"
+os.environ['ML_FLOW_TRACKING_PASSWORD'] ="Password"
 
 def hyperparameter_tunning(x_train,y_train, param_grid):
     rf= RandomForestClassifier()
